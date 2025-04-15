@@ -1,6 +1,8 @@
-{
+{  
+  "extends": "./tsconfig.json",
   "compilerOptions": {
-    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
+    "tsBuildInfoFile": "./build.tsbuildinfo",
+    "incremental" : true,
     "target": "ES2022",
     "lib": ["ES2023"],
     "module": "ESNext",
